@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+header ul {
+    display: flex
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration:  none;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%; 
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(rgba(240, 243, 243, 0.9), rgba(49, 209, 129)), url(../imagenes/Portada-01.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+#content-title {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+
+}
+h1{
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2{    
+    font-size: 25px;
+    color: #ffffff; 
+}
+
+.contenedor-titulo{
+    text-align: center;
+}
+
+.contenedor-titulo a , #sobre-mi a{
+    font-size: 14px;
+    color: #ffffff;
+    background: #08dcb6;
+    padding: 14px 24px;
+    display: inline-block;
+
+}
+
+p.logo{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+/* SECCION DE SOBRE MI */
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#sobre-mi .content-sobremi {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-mi .texto {
+    width: 42%;
+}
+
+.computer img{
+    width: 42%;
+    height: auto;
+}
+
+
+.content-services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.service{
+    width: 24%;
+    padding: 34px 30px 38px  30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.service h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.service p {
+    margin-bottom: 20px;
+    height: 194px;
+}
+
+.content-services .green {
+    background-image: linear-gradient(to top , #f6f6f6, #31d181);
+    box-shadow: 9px 21px 23px -1px rgba(150,230,210,1);
+}
+
+.content-services .white {
+    background-image: linear-gradient(to top , #f6f6f6, #eeeeee);
+    box-shadow: 9px 21px 23px -1px rgba(235,232,235,1);
+}
+
+.icono {
+    float: right;
+}
+
+/* .fondo-service{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+} */
