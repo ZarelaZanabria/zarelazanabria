@@ -98,11 +98,23 @@ h3{
 
 /* SECCION SERVICIOS */
 
-.contenedor-servicios {
+.contenedor-servicios  {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   color: #fff;
+}
+
+.contenedor-tecnicas  {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.tecnicas{
+  width: 24%;
+  padding: 4px 2px 8px 4px;
+  position: relative;
 }
 
 .servicio {
@@ -156,3 +168,63 @@ span {
   text-align: center;
 color: #000;
 }
+
+/* CONTACTO */
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  
+  .contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  /* HABILIADES TECNICAS */
+ #habilitateTecnicas .contenedor-habilidades {
+    flex-direction: column;
+  }
+
+  #habilitateTecnicas .habilidad {
+   /*  width: 100%;
+    margin-bottom: 40px; */
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  } 
+
+/* FOOTER */
+
+
+footer {
+    background: #2F2F2F;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0.4s;
+  }
+  
+  footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+  }
+  
+  footer p {
+    color: #fff;
+    margin-top: 40px;
+  }
+  
